@@ -16,6 +16,7 @@
             "outputPath": "dist/factorial-web-worker",
             "index": "src/index.html",
             "main": "src/main.ts",
+            "webWorkerTsConfig": "tsconfig.worker.json",
             "polyfills": [
               "zone.js"
             ],
@@ -27,7 +28,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "webWorkerTsConfig": "tsconfig.worker.json"
           },
           "configurations": {
             "production": {
@@ -89,10 +91,14 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "webWorkerTsConfig": "tsconfig.worker.json"
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "91d20545-3b19-43ef-9108-69e8bf60463a"
   }
 }
